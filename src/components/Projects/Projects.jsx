@@ -19,7 +19,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          <img src="../../../public/img/eshop.png" alt="" />
+          <img src="../../../public/Img/eshop.png" alt="" />
           <h3>E-Shop</h3>
           <div>
             <Link to="https://github.com/EvenSalomon1/E-Shop">
@@ -31,7 +31,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          {/* <img src="../../../public/img/tasty.png" alt="Tasty App" /> */}
+          <img src="../../../public/Img/tasty.png" alt="Tasty App" />
           <h3>Tasty</h3>
           <div>
             <Link to="https://github.com/EvenSalomon1/Tasty-Aktuell">
