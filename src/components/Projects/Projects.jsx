@@ -19,7 +19,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          <img src="../../../src/assets/img/e-shop.png" alt="" />
+          <img src="../../../public/img/e-shop.png" alt="" />
           <h3>E-Shop</h3>
           <div>
             <Link to="https://github.com/EvenSalomon1/E-Shop">
