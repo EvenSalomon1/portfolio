@@ -1,0 +1,36 @@
+.skills-wrapper {
+  background-color: #5e9374;
+  padding: 5vw;
+  padding-bottom: 10vh;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 3vh;
+  padding: 3vh 2vw 0 2vw;
+  letter-spacing: 2px;
+  background-color: rgb(227, 224, 224);
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.skills-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-self: center;
+  gap: 20vw;
+  margin-bottom: 5vh;
+}
+
+.skills-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20vw;
+  margin-bottom: 5vh;
+}
+
+.skills h2 {
+  font-size: clamp(1rem, 0.03rem + 3.0094vw, 3rem);
+}

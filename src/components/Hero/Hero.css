@@ -1,0 +1,28 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5vh 3vw 10vh 3vw;
+  gap: 5vw;
+  background-color: #5e9374;
+}
+
+.hero img {
+  width: 50vw;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+.hero span {
+  color: white;
+}
+
+.hero h1 {
+  font-size: clamp(1.3rem, 0.07rem + 4.0094vw, 4rem);
+}
+
+.hero h1:nth-of-type(2) {
+  margin-bottom: 3vh;
+}
+.hero h3 {
+  font-size: clamp(1rem, 0.03rem + 2.7vw, 2.7rem);
+}

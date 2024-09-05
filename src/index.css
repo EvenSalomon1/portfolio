@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(../public/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: SpaceGrotesk;
+}
+
+h1 {
+  font-size: 2rem;
+}
