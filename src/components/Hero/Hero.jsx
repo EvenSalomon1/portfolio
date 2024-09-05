@@ -14,7 +14,7 @@ const Hero = () => {
         </h3>
       </article>
       <article className="hero-right">
-        <img src="../../../public/img/EvenProfile2.png" alt="Even" />
+        {/* <img src="../../../public/img/EvenProfile2.png" alt="Even" /> */}
       </article>
     </section>
   );

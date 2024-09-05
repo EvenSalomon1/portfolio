@@ -7,7 +7,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-grid">
         <article>
-          <img src="../../../public/img/GreenMarket.png" alt="GreenMarket" />
+          {/* <img src="../../../public/img/GreenMarket.png" alt="GreenMarket" /> */}
           <h3>Green Market</h3>
           <div>
             <Link to="https://github.com/MorphDE/GreenMarket">
@@ -31,7 +31,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          <img src="../../../public/img/tasty.png" alt="Tasty App" />
+          {/* <img src="../../../public/img/tasty.png" alt="Tasty App" /> */}
           <h3>Tasty</h3>
           <div>
             <Link to="https://github.com/EvenSalomon1/Tasty-Aktuell">
@@ -43,7 +43,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          <img src="../../../public/img/pokemon_.png" alt="" />
+          {/* <img src="../../../public/img/pokemon_.png" alt="" /> */}
           <h3>Pokémon</h3>
           <div>
             <Link to="https://github.com/Zied1981/PokeDex_Project">
