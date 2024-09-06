@@ -1,5 +1,6 @@
 import "./Projects.css";
 import { Link } from "react-router-dom";
+import Eshop from "../../../public/Img/eshop";
 
 const Projects = () => {
   return (
@@ -19,7 +20,8 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          <img src="../../../public/Img/eshop.png" alt="" />
+          {/* <img src="../../../public/Img/eshop.png" alt="" /> */}
+          <Eshop />
           <h3>E-Shop</h3>
           <div>
             <Link to="https://github.com/EvenSalomon1/E-Shop">
