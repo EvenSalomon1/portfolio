@@ -1,4 +1,5 @@
 import "./Hero.css";
+import Me from "../../assets/evenProfile2.png";
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
         </h3>
       </article>
       <article className="hero-right">
-        {/* <img src="../../../public/img/EvenProfile2.png" alt="Even" /> */}
+        <img src={Me} alt="" />
       </article>
     </section>
   );

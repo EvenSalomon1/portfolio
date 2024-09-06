@@ -1,6 +1,9 @@
 import "./Projects.css";
 import { Link } from "react-router-dom";
 import Eshop from "../../assets/eshop.png";
+import GreenMarket from "../../assets/greenmarket.png";
+import Tasty from "../../assets/tasty.png";
+import Pokemon from "../../assets/pokemon.png";
 
 const Projects = () => {
   return (
@@ -8,7 +11,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-grid">
         <article>
-          {/* <img src="../../../public/img/GreenMarket.png" alt="GreenMarket" /> */}
+          <img src={GreenMarket} alt="" />
           <h3>Green Market</h3>
           <div>
             <Link to="https://github.com/MorphDE/GreenMarket">
@@ -20,7 +23,6 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          {/* <img src="../../../public/Img/eshop.png" alt="" /> */}
           <img src={Eshop} alt="" />
           <h3>E-Shop</h3>
           <div>
@@ -33,7 +35,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          <img src="../../../public/Img/tasty.png" alt="Tasty App" />
+          <img src={Tasty} alt="" />
           <h3>Tasty</h3>
           <div>
             <Link to="https://github.com/EvenSalomon1/Tasty-Aktuell">
@@ -45,7 +47,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          {/* <img src="../../../public/img/pokemon_.png" alt="" /> */}
+          <img src={Pokemon} alt="" />
           <h3>Pokémon</h3>
           <div>
             <Link to="https://github.com/Zied1981/PokeDex_Project">
