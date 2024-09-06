@@ -20,7 +20,7 @@ const Projects = () => {
           </div>
         </article>
         <article>
-          {/* <img src="../../../public/Img/eshop.png" alt="" /> */}
+          <img src="../../assets/eshop.png" alt="" />
           {/* <img src={Eshop} alt="" /> */}
           <h3>E-Shop</h3>
           <div>
